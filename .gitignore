@@ -1,0 +1,36 @@
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables / dotenv files
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache and other temporary directories
+.streamlit/
+.cache/
+
+# Logs and other system files
+*.log
+*.bak
