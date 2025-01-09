@@ -1,6 +1,6 @@
 # 📊 Stock Price Prediction App
 
-Welcome to the **Stock Price Prediction App**, an interactive web application designed to forecast future stock prices using advanced time series modeling techniques. This application leverages an intuitive interface, real-time data retrieval, and an AI-based forecasting library to provide quick and accessible insights for users interested in analyzing and predicting stock market behavior.
+Welcome to the **Stock Price Prediction App**, an interactive web application designed to forecast future stock prices using advanced time-series modeling techniques. This application leverages an intuitive interface, real-time data retrieval, and an AI-based forecasting library to provide quick and accessible insights for users interested in analyzing and predicting stock market behavior.
 
 ---
 
@@ -9,10 +9,9 @@ Welcome to the **Stock Price Prediction App**, an interactive web application de
 - **Single-Ticker Forecasting**: Enter a valid stock ticker symbol (e.g., AAPL, TSLA, MSFT) to retrieve and analyze historical data.
 - **Interactive Plots**: Visualize historical Open/Close prices using dynamic and responsive charts.
 - **Prophet-Based Forecasting**: Use a robust forecasting library that automatically handles trends and seasonality.
-- **Customizable Horizon**: Select how many years (1 to 4) you want to forecast, offering flexibility for short-term or mid-term predictions.
+- **Customizable Horizon**: Enter how many years you want to forecast, offering flexibility for short-term or mid-term predictions.
 - **Forecast Components**: View trend, weekly, and yearly seasonal insights (when relevant) in a user-friendly format.
-- **Evaluation Metrics**: Access mean absolute error (MAE), mean squared error (MSE), root mean squared error (RMSE), mean absolute percentage error (MAPE), and an approximate accuracy percentage for performance analysis.
-- **Simple Navigation**: Move between Stock Prediction, About Us, and Contact Us pages via a sidebar.
+- **Evaluation Metrics**: (Optional in certain builds) Access mean absolute error (MAE), mean squared error (MSE), root mean squared error (RMSE), mean absolute percentage error (MAPE), and an approximate accuracy percentage for performance analysis.
 - **Multi-Index Handling**: Automatically flattens multi-level data returned by Yahoo Finance for seamless processing.
 
 ---
@@ -25,14 +24,14 @@ Welcome to the **Stock Price Prediction App**, an interactive web application de
 - **Plotly**: Provides rich, interactive graphing tools for in-app visualizations.
 - **yfinance**: Downloads historical stock data from Yahoo Finance.
 - **pandas**: Handles data manipulation tasks.
-- **scikit-learn**: Offers metrics for model performance evaluation (MAE, MSE, RMSE, MAPE).
+- **scikit-learn**: Offers metrics for model performance evaluation (MAE, MSE, RMSE, MAPE) when a test set is used.
 - **NumPy**: Utilized for efficient numerical operations.
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Install Python 3.10+** if it’s not already on your system.
+1. **Install Python 3.10+** (or a compatible version) if it’s not already on your system.
 2. **Create (Optional) and Activate a Virtual Environment** to isolate your project’s dependencies.
 3. **Install Required Libraries**: Make sure you have all the necessary packages such as Streamlit, Prophet, Plotly, scikit-learn, yfinance, pandas, and NumPy.
 
@@ -81,9 +80,6 @@ Note: Ensure that FFmpeg is installed on your system.
      - Forecast results and visual forecast components.
      - Prediction vs. Actual for the selected horizon.
      - Accuracy metrics (MAE, MSE, RMSE, MAPE, and approximate accuracy).
-5. **Explore Other Pages**:
-   - **About Us**: Read about the project’s vision, AI-driven approach, and disclaimers.
-   - **Contact Us**: Reach out via email or find location details.
 
 ---
 
