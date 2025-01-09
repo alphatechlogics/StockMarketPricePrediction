@@ -144,7 +144,8 @@ else:
             These bounds can help you understand the level of uncertainty in the model’s predictions.
             """
         )
-        st.write(forecast.tail())
+        st.write(forecast)
+
 
         # Forecast Chart
         st.markdown("#### Forecast Chart")
