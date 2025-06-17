@@ -2,6 +2,8 @@
 
 Welcome to the **Stock Price Prediction App**, an interactive web application designed to forecast future stock prices using advanced time-series modeling techniques. This application leverages an intuitive interface, real-time data retrieval, and an AI-based forecasting library to provide quick and accessible insights for users interested in analyzing and predicting stock market behavior.
 
+![](https://raw.github.com/alphatechlogics/StockMarketPricePrediction/8513341a5e7e9f67c62087c10dfb6ad7d7fb6953/Screenshot%202025-06-17%20222312.png)
+
 ---
 
 ## ✨ Features
